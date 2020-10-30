@@ -4,6 +4,7 @@
   background-color: #F3F2EB;
 }
 
+
 .registration-navbar ul li a {
   color: #ffffff;
   font-size: 0.8em;
@@ -19,6 +20,33 @@
   color: rgba(255, 255, 255, 0);
 }
 
+.carouselthing
+{
+  border: 5px solid #2B992F;
+}
+
+.my-velkomrow
+{
+  border: 5px solid #2B992F;
+}
+
+.registration-link {
+  background-color: #41A56C;
+}
+
+.my-Row {
+padding: 20px 0;
+}
+
+.textsection {
+padding: 20px 0;
+}
+
+
+.borderimage
+{
+  border: 5px solid #4D654A;
+}
 
 .navbarThing
 {
@@ -54,7 +82,7 @@ body {
 }
 
 /* Main Footer */
-footer .main-footer{	padding: 20px 0;	background: #7E8F80;}
+footer .main-footer{	padding: 20px 0;	background: #7E8F80; border: 5px solid #2D2D2D;}
 footer ul{	padding-left: 0;	list-style: none;}
 
 /* Copy Right Footer */
@@ -116,7 +144,7 @@ ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
-.btn{background-color: #ff8d1e; color:#fff;}
+.btn{background-color: #535353; color:#fff;}
 .btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
