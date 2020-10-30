@@ -25,6 +25,16 @@
   border: 5px solid #2B992F;
 }
 
+.my-billedelangt
+{
+  border: 5px solid #2B992F;
+}
+.my-booghans
+{
+  border: 5px solid #2B992F;
+}
+
+
 .my-velkomrow
 {
   border: 5px solid #2B992F;
@@ -42,8 +52,62 @@ padding: 20px 0;
 padding: 20px 0;
 }
 
+.my-Row2 {
+padding-bottom: 20px;
+}
 
-.borderimage
+
+.h1
+{
+  background-color: #C3EBCB;
+  border: 5px solid #4D654A;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.my-Col5
+{
+  background-color: #C3EBCB;
+  border: 5px solid #4D654A;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.my-Col10{
+padding: 10px 0;
+}
+
+.bo
+{
+  background-color: #F1F9E1;
+  border: 5px solid #4D654A;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: ;
+}
+
+.hans
+{
+  background-color: #F1F9E1;
+  border: 5px solid #4D654A;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: ;
+}
+
+.my-Img
 {
   border: 5px solid #4D654A;
 }
