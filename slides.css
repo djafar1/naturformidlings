@@ -1,0 +1,76 @@
+#main-content {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:35px;
+    max-width:900px;
+    border-top-left-radius:48px;
+    border-top-right-radius:48px;
+    border-bottom-left-radius:48px;
+    border-bottom-right-radius:48px;
+    padding-bottom:20px;
+    min-height:1100px;
+    background:url(https://icdn02.machotube.tv/img/48152/2407579_3.jpg) repeat;
+}
+
+#slideshow{
+    background:url(res/iphone_small.png) no-repeat;
+    height:512px;
+    /*margin:auto 30px;*/
+    margin:40px 28px auto;
+    position:relative;
+}
+
+#slideshow ul{
+    height:55%;
+    list-style:none outside none;
+    overflow:hidden;
+    position:absolute;
+    top:12%;
+    width:20%;
+}
+
+#slideshow li{
+    position:absolute;
+    display:none;
+    z-index:10;
+}
+
+#slideshow li:first-child{
+    display:block;
+    z-index:1000;
+}
+
+#slideshow .slideActive{
+    z-index:1000;
+}
+
+#slideshow canvas{
+    display:none;
+    position:absolute;
+    z-index:100;
+}
+
+#slideshow .arrow{
+    height:12.5%;
+    width:5.1%;
+    position:absolute;
+    background:url('res/arrows.png') no-repeat;
+    top:50%;
+    margin-top:-55px;
+    cursor:pointer;
+    z-index:5000;
+    margin-left:28.5%;
+    margin-right:98%;
+}
+
+#slideshow .previous{ background-position:right top;right:0;}
+#slideshow .previous:hover{ background-position:right bottom;}
+
+#slideshow .next{ background-position:left top;left:0;}
+#slideshow .next:hover{ background-position:left bottom;}
+
+img{
+   max-width:100%;
+   height:auto;
+
+}
