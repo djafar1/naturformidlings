@@ -25,6 +25,12 @@
   border: 5px solid #2B992F;
 }
 
+.flags{
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+}
 .my-billedelangt
 {
   border: 5px solid #2B992F;
@@ -34,6 +40,10 @@
   border: 5px solid #2B992F;
 }
 
+.my-Row
+{
+  border: 5px solid #2B992F;
+}
 
 .my-velkomrow
 {
@@ -56,6 +66,9 @@ padding: 20px 0;
 padding-bottom: 20px;
 }
 
+.my-Col{
+  padding-bottom: 10px;
+}
 
 .h1
 {
@@ -66,6 +79,9 @@ padding-bottom: 20px;
   padding-right: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
+  margin: auto;
+  width: 50%;
+  font-size:8vw;
 }
 
 .my-Col5
@@ -80,7 +96,13 @@ padding-bottom: 20px;
 }
 
 .my-Col10{
-padding: 10px 0;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.my-Col15{
+  padding-top: 10px;
 }
 
 .bo
@@ -107,6 +129,11 @@ padding: 10px 0;
   width: ;
 }
 
+.Kalendar
+{
+  border: 5px solid #4D654A;
+}
+
 .my-Img
 {
   border: 5px solid #4D654A;
@@ -126,6 +153,7 @@ padding: 10px 0;
 {
   font-size: 30px;
 }
+
 
 @media(max-width:33.9em) {
   .navbar .collapse {max-height:250px;width:100%;overflow-y:auto;overflow-x:hidden;}
@@ -221,4 +249,50 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -o-transition: all 250ms ease-in-out 0s;
 transition: all 250ms ease-in-out 0s;
 
+}
+
+
+
+@media screen and (min-width: 601px) {
+  div.h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.h1 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  div.skrift4 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.skrift4 {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+border: 5px solid #4D654A;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width: 100%;
+    position:absolute;
 }
