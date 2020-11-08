@@ -1,4 +1,12 @@
 /* Registration Navbar */
+.logospan{
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+align-content: flex-start;
+}
+
 
 .registration-navbar {
   background-color: #F3F2EB;
@@ -70,9 +78,42 @@ padding-bottom: 20px;
   padding-bottom: 10px;
 }
 
+.OutlineText {
+    text-shadow:
+    /* Outline */
+    -0.5px -0.5px 0 #000000,
+    0.5px -0.5px 0 #000000,
+    -0.5px 0.5px 0 #000000,
+    0.5px 0.5px 0 #000000,
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    0 1px 0 #000000,
+    0 -1px 0 #000000; /* Terminate with a semi-colon */
+}
+
+.OutlineText2 {
+    text-shadow:
+    /* Outline */
+    -0.2px -0.2px 0 #000000,
+    0.2px -0.2px 0 #000000,
+    -0.2px 0.2px 0 #000000,
+    0.2px 0.2px 0 #000000,
+    -0.4px 0 0 #000000,
+    0.4px 0 0 #000000,
+    0 0.4px 0 #000000,
+    0 -0.4px 0 #000000; /* Terminate with a semi-colon */
+}
+
+.my-maersken
+{
+  border: 5px solid #2B992F;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
 .h1
 {
-  background-color: #C3EBCB;
   border: 5px solid #4D654A;
   text-align: center;
   padding-top: 5px;
@@ -83,6 +124,7 @@ padding-bottom: 20px;
   width: 50%;
   font-size:8vw;
 }
+
 
 .my-Col5
 {
@@ -277,7 +319,16 @@ transition: all 250ms ease-in-out 0s;
   }
 }
 
+@media screen and (min-width: 601px) {
+  div.skrift5 {
+    font-size: 27.5px;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  div.skrift5 {
+    font-size: 22.5px;
+  }
 
 
 

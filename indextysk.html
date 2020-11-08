@@ -137,7 +137,7 @@
 <div class="col my-booghans">
   <div class="row my-Row">
    <div class="col-sm-10 my-Col text-center">
-     <div class="h1" >Naturführer</div>
+     <div class="h1"style="background-color:#C3EBCB;" >Naturführer</div>
      <div class="textsection my-Col5">
      <div class="skrift4" style="text-align:left;">Hans und Bo Tonnesen sind seit vielen Jahren Naturführer und sind auch heute noch Vorstandsmitglied der Dänischen Naturschutzgesellschaft. Sowohl Hans als auch Bo haben großes Interesse an der Tierwelt, die hier unten zu finden ist, indem sie b.la. die Vogelwelt durch das Waten, wo sie auch eine "Naturschule" bekommen haben und in Zusammenarbeit mit der Gemeinde Ténder stehen, haben sowohl Hans als auch Bo große Liebe zur Natur und deshalb entscheiden sie sich auch dafür, sie zum nächsten Schritt zu bringen, wo sie ihr Wissen teilen. Mit Hans und Bos langjähriger Erfahrung als Supervisor gibt es keinen Grund, zweifeln zu müssen, sie sind mehr als bereit, von ihnen zu lernen, und sie werden sehr glücklich sein, wenn sie euch etwas Neues beibringen könnten, also lasst eine Nachricht oder einen Anruf, wenn ihr nach draußen kommen und die Natur erleben wollt, die auf euch wartet!
 </div>
@@ -255,11 +255,14 @@
     <div class="widget no-box">
     <h4 class="widget-title">Newsletter<span></span></h4>
     <div class="form-group">
-       <label for="exampleInputEmail1">Email address</label>
-       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-       <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+       <label for="exampleInputEmail1">E-mail address:</label>
+       <form method="post" action="insert.php" >
+   <!--her defineres input-felterne ved hjælp af attributterne "type", "name", "placeholder", "style" og "send"-->
+       <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Indtast din emailadresse"/><br />
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
      </div>
-    <a class="btn" href="#." target="_blank">Register til nyhedsbrev</a>
+   <input type="submit" class="btn" value="Register til nyhedsbrev"/>
+   </form>
     </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-3">
